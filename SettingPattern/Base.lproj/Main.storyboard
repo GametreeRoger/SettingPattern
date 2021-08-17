@@ -53,22 +53,22 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <stackView opaque="NO" contentMode="scaleToFill" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="oIS-mi-gbY">
-                                                    <rect key="frame" x="15" y="5.9999999999999964" width="315.66666666666669" height="63.666666666666657"/>
+                                                    <rect key="frame" x="15" y="9.6666666666666643" width="315.66666666666669" height="59.999999999999993"/>
                                                     <subviews>
                                                         <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" verticalHuggingPriority="251" image="mediaCircle" translatesAutoresizingMaskIntoConstraints="NO" id="Luy-A4-llV">
-                                                            <rect key="frame" x="0.0" y="0.0" width="60" height="63.666666666666664"/>
+                                                            <rect key="frame" x="0.0" y="0.0" width="60" height="60"/>
                                                         </imageView>
-                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillProportionally" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Vzb-5y-UK2">
-                                                            <rect key="frame" x="74.999999999999986" y="0.0" width="240.66666666666663" height="63.666666666666664"/>
+                                                        <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="top" translatesAutoresizingMaskIntoConstraints="NO" id="Vzb-5y-UK2">
+                                                            <rect key="frame" x="74.999999999999986" y="0.0" width="240.66666666666663" height="60"/>
                                                             <subviews>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" text="Luther Wilson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z80-jj-8TO">
-                                                                    <rect key="frame" x="0.0" y="0.0" width="131.33333333333334" height="39.666666666666664"/>
+                                                                    <rect key="frame" x="0.0" y="0.0" width="131.33333333333334" height="30"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
                                                                 </label>
                                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Apple ID, iCloud, iTunes &amp; App Store" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OQU-Zf-HT3">
-                                                                    <rect key="frame" x="0.0" y="39.666666666666664" width="220.33333333333334" height="24"/>
+                                                                    <rect key="frame" x="0.0" y="30" width="220.33333333333334" height="30"/>
                                                                     <fontDescription key="fontDescription" type="system" pointSize="13"/>
                                                                     <nil key="textColor"/>
                                                                     <nil key="highlightedColor"/>
@@ -82,7 +82,7 @@
                                                 <constraint firstItem="oIS-mi-gbY" firstAttribute="leading" secondItem="sFy-Vy-lO8" secondAttribute="leading" constant="15" id="VIy-2Q-eLT"/>
                                                 <constraint firstAttribute="trailing" secondItem="oIS-mi-gbY" secondAttribute="trailing" constant="19" id="b9W-hz-3k9"/>
                                                 <constraint firstAttribute="bottom" secondItem="oIS-mi-gbY" secondAttribute="bottom" constant="10.5" id="nCJ-qc-Tt4"/>
-                                                <constraint firstItem="oIS-mi-gbY" firstAttribute="top" secondItem="sFy-Vy-lO8" secondAttribute="top" constant="5.9000000000000004" id="pYl-fm-Kq5"/>
+                                                <constraint firstItem="oIS-mi-gbY" firstAttribute="top" secondItem="sFy-Vy-lO8" secondAttribute="top" constant="9.5" id="pYl-fm-Kq5"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" name="CellBackgroundColor"/>
